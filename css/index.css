@@ -167,19 +167,20 @@ h1 {
   padding: 2% 0 1% 0;
   font-size: 62.5%;
   font-size: 4rem;
+  font: #454A59;
   background: #F6F6F6;
 }
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   font: #454A59;
   background: #F6F6F6;
+  border-bottom: 1px, #F1F1F1;
 }
 nav a {
-  padding: 0 2% 1% 2%;
-  justify-content: space-between;
+  padding: 0 2% 1% 0%;
+  justify-content: center;
   color: black;
   text-decoration: none;
   font-size: 62.5%;
@@ -236,6 +237,9 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: black;
 }
 .home .walk .walk-img {
   width: 46%;
